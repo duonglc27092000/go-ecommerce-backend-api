@@ -21,10 +21,10 @@ func NewUserController() *UserController {
 // controller -> service -> repo -> models -> dbs
 func (uc *UserController) GetUserByID(c *gin.Context) {
 
-	if err != nil {
-		return response.ErrorResponse(c, 20003, "No Need !")
-	
-	}
+	// if err != nil {
+	// 	return response.ErrorResponse(c, 20003, "No Need !")
+
+	// }
 	response.SuccessResponse(c, 20001, []string{"d1", "d22", "d333"})
 	// response.SuccessResponse(c, 20001, []string{"d1", "d22", "d333"})
 
