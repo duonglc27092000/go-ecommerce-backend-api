@@ -22,3 +22,14 @@ databases:
 security:
   jwt: 
     key: dfkjughileruy9812347uy
+
+logger:
+  log_level: debug
+  file_log_name: "./storages/logs/dev.001.log"
+  max_size: 500
+  max_backups: 3
+  max_age: 28
+  compress: true
+
+
+
