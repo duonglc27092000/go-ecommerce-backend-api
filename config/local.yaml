@@ -5,7 +5,7 @@ mysql:
   port: 33306
   username: root
   password: root1234
-  daname: shopdevgo
+  dbname: shopdevgo
   maxIdleConns: 10
   maxOpenConns: 100
   connMaxLifetime: 3600
